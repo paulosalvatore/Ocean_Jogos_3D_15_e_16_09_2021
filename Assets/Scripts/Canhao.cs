@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Canhao : MonoBehaviour
 {
+    public GameObject balaDeCanhaoPrefab;
+
+    public float delayInicial = 1f;
+
+    public float delayEntreObjetos = 1f;
+
+    public float forca = 100f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating("GerarBalaDeCanhao", delayInicial, delayEntreObjetos);
     }
 
-    // Update is called once per frame
-    void Update()
+    void GerarBalaDeCanhao()
     {
-        
+        var balaDeCanhao = Instantiate(balaDeCanhaoPrefab, transform.position, transform.rotation);
+
+        var rb = balaDeCanhao.GetComponent<Rigidbody>();
+
+        rb.AddRelativeForce(Vector3.up * forca);
     }
 }

@@ -4522,5 +4522,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Canh\xE3o"
       objectReference: {fileID: 0}
+    - target: {fileID: 2976603250767603815, guid: 95f2f4f314b16694a84122eb3961a2af, type: 3}
+      propertyPath: forca
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976603250767603815, guid: 95f2f4f314b16694a84122eb3961a2af, type: 3}
+      propertyPath: balaDeCanhaoPrefab
+      value: 
+      objectReference: {fileID: 435893384860817247, guid: 1a07b7ff652226c469b3f4d354caa3f2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95f2f4f314b16694a84122eb3961a2af, type: 3}
