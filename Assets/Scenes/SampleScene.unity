@@ -306,7 +306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4283527512771772, guid: e332982425ee2ec48b168979bb7b43f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.13
+      value: 4.08
       objectReference: {fileID: 0}
     - target: {fileID: 4283527512771772, guid: e332982425ee2ec48b168979bb7b43f5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2468,7 +2468,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!64 &1079794618
 MeshCollider:
@@ -2497,6 +2497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1079794617}
+  velocidade: 5
 --- !u!1001 &1100258289
 PrefabInstance:
   m_ObjectHideFlags: 0
